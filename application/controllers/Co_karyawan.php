@@ -60,7 +60,7 @@ class Co_karyawan extends CI_Controller {
 		$this->load->view('view_update');
 	}
 
-	public function update2(){
+	public function update_karyawan(){
 		include "cek_session.php";
 		$nama=$this->input->post('nama');
 		$ttl=$this->input->post('ttl');
